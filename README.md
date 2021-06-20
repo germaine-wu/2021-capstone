@@ -43,5 +43,9 @@ Function list:
 &#8195;Choose the models & method : 1 as model1; 2 as model2  (for prediction)  
 <br/> 
 If use `Pred` function, need to input attributes: `function`, `input`, `output`, `method`  
-If use `Eval` function, need to input attributes: `function`, `input`, `output`, `trueout`, `result` 
+For example, `python main.py -f Pred -i test_long_input.txt -o output.txt -m 2` to predict the output sequences `output.txt`   
+<br/>
+If use `Eval` function, need to input attributes: `function`, `input`, `output`, `trueout`, `result`  
+For example, `python main.py -f Eval -i test_long_input.txt -o output.txt -t test_long_output.txt -r result.txt` to get the result `result.txt`   
+
 
